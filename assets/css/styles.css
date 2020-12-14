@@ -306,7 +306,10 @@ img{
   width: 20%;
 }
 .skills__ux{
-  width: 70%;
+  width: 60%;
+}
+.skills__design{
+  width: 75%;
 }
 .skills__img{
   border-radius: .5rem;
