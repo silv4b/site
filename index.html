@@ -35,6 +35,9 @@
               <a href="#skills" class="nav__link">Skills</a>
             </li>
             <li class="nav__item">
+              <a href="#slider" class="nav__link">Slider</a>
+            </li>
+            <li class="nav__item">
               <a href="#work" class="nav__link">Trabalho</a>
             </li>
           </ul>
@@ -166,19 +169,43 @@
             </div>
             <div class="skills__data">
               <div class="skills__names">
-                 <i class="bx bx-intersect skills__icon"></i>
+                <i class="bx bx-intersect skills__icon"></i>
                 <span class="skills__name">Design</span>
               </div>
-              <div class="skills__bar skills__design"></div>
+              <div class="skills__bar skills__dsg"></div>
               <div>
                 <span class="skills__percentage">75%</span>
               </div>
             </div>
           </div>
-
           <div>
             <img src="assets/img/work3.jpg" alt="" class="skills__img" />
           </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="slider">
+        <h2 class="section-title">Slider</h2>
+
+        <div class="contact__container skills__img bd-grid">
+          <div class="img-slider">
+          <div class="slide slider-active">
+            <img src="assets/img/work1.jpg" alt="" />
+            <div class="info">
+              <h2>Slide 01</h2>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="assets/img/work2.jpg" alt="" />
+            <div class="info">
+              <h2>Slide 02</h2>
+            </div>
+          </div>
+          <div class="navigation">
+            <div class="btn slider-active"></div>
+            <div class="btn"></div>
+          </div>
+        </div>
         </div>
       </section>
 
@@ -227,5 +254,8 @@
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
+
+    <!--===== SLIDER JS =====-->
+    <script src="assets/js/slider.js"></script>
   </body>
 </html>
